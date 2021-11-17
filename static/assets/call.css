@@ -1,0 +1,88 @@
+.dialWrapper {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialNumpadHWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.dialNumber {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.incomingWrapper {
+    width: 300px;
+    background-color: rgb(208, 255, 223);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.itemWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionButton {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dialActionButton {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#errorMessage {
+    color: red;
+}
+
+button {
+    background-color: #39d36c;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px 0;
+    margin-left: 15px;
+}
+
+.options__button {
+    margin-left: 20px;
+}
+
+.ten {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(208, 255, 223);
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
